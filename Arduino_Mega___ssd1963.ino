@@ -9,8 +9,8 @@ extern uint8_t SmallFont[];
 // Standard Arduino Mega/Due shield            : <display model>,38,39,40,41
 
 // Remember to change the model parameter to suit your display module!
-UTFT myGLCD(SSD1963_800480,38,39,40,41);  //(byte model, int RS, int WR, int CS, int RST, int SER)
-
+//UTFT myGLCD(SSD1963_800480,38,39,40,41);  //(byte model, int RS, int WR, int CS, int RST, int SER)
+UTFT myGLCD(ITDB50,38,39,40,41);
 
 void setup()
 {
